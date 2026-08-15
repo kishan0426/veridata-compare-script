@@ -1,0 +1,6 @@
+CREATE GLOBAL TEMPORARY TABLE table_oos_keys
+(
+    sid NUMBER PRIMARY KEY,
+    action_type VARCHAR2(10)
+)
+ON COMMIT PRESERVE ROWS;
